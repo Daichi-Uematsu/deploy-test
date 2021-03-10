@@ -1,0 +1,148 @@
+
+.work-imgs{
+  display: flex;
+  height: 320px;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 60px;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.work-img{
+  display: inline-block;
+  height: 320px;
+  margin-right: 40px;
+}
+
+.item{
+  display: inline-block;
+}
+
+.work-contents-container{
+  position: relative;
+  background-color: #181818;
+  margin-top: 60px;
+  padding: 20px 0;
+}
+
+.work-contents{
+  width: 1024px;
+  margin: 0 auto;
+  height: 365px;
+}
+
+.work-contents hr{
+  width: 100%;
+  border: #303030 solid 1px;
+  margin-bottom: 24px;
+}
+
+.work-about{
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.kanji{
+  width: 72px;
+}
+
+.work-title{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.title{
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.name-lab{
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  color: #AAA;
+}
+.work-content-list{
+  display: flex;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.work-content-list h4{
+  min-width: 80px;
+  margin-right: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    
+  }
+
+@media (max-width: 599px) {
+  .work-contents-container{
+    padding: 20px 12px;
+  }
+
+  .work-contents{
+    width: 100%;
+    height: auto;
+  }
+
+
+  .work-content-list{
+    flex-direction: column;
+  }
+
+  .kanji{
+    width: 56px;
+  }
+
+  .title{
+    font-size: 18px;
+  }
+
+  .work-imgs{
+    height: 200px;
+  }
+
+  .work-img{
+    display: inline-block;
+    height: 200px;
+    margin-right: 12px;
+  }
+
+  .work-contents hr{
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .work-content-list h4{
+    margin: 0;
+    margin-bottom: 4px;
+  }
+
+  
+
+
+
+  }

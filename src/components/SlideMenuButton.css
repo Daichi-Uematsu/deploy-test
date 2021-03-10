@@ -1,0 +1,86 @@
+.SlideMenuButton{
+    text-align: left;
+    margin-bottom: 32px;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.Button-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height */
+
+    color: #212121;
+    transition: all 0.3s;
+}
+
+.Button-subtext{
+    color: #777;
+    transition: all 0.3s;
+}
+
+.Button-text-current{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height */
+
+    color: #212121;
+}
+
+.Button-subtext-current{
+    color: #212121;
+}
+
+.SlideMenuButton:hover .Button-text{
+    color: #EB548A;
+}
+
+.SlideMenuButton:hover .Button-subtext{
+    color: #EB548A;
+}
+
+.current{
+    border-left: 4px solid #212121;
+    padding-left: 8px;
+}
+
+.default{
+    padding-left: 8px;
+}
+
+
+@media (max-width: 599px) {
+    .SlideMenuButton{
+        padding-left: 24px;
+        margin-bottom: 24px;
+    }
+
+    .Button-text{
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .Button-text-current{
+        font-size:28px;
+        color: #EB548A;
+    }
+
+    .Button-subtext{
+        font-size: 14px;
+    }
+
+    .Button-subtext-current{
+        font-size: 14px;
+        color: #EB548A;
+    }
+
+    .current{
+        border: none;
+    }
+}

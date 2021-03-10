@@ -1,0 +1,35 @@
+.contact-container{
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    overflow: hidden;
+  }
+
+.google-form{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+    overflow:auto; 
+    -webkit-overflow-scrolling:touch;
+}
+
+.google-form iframe {
+    margin-top: 24px;
+    top:0;
+    left:0;
+    width:100%;
+    border:none;
+    display:block;
+}
+
+
+@media (max-width: 599px) {
+
+    .google-form iframe {
+        height: 1240px;
+    }
+
+}
+

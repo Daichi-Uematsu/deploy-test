@@ -1,0 +1,65 @@
+.btn-attention{
+    position: relative;
+    background-color: #F9FBFD;
+    border: 1px solid #EF4949;
+    text-align: center;
+    border-radius: 4px;
+    font-family: "YuGothic","Yu Gothic";
+    max-width: 416px;
+    box-sizing: border-box;
+}
+
+.btn-attention:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EF4949;
+    width: 0;
+    height: 100%;
+    transition: all 0.3s ease-out;
+    z-index: 0;
+}
+
+.btn-attention-container{
+    display: flex;
+}
+
+.btn-attention p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 auto;
+    color: #EF4949;
+    text-align: center;
+    transition: all 0.4s;
+    
+    z-index: 1;
+}
+
+/*hover*/
+.btn-attention:hover::before{ 
+    width: 100%;
+}
+
+.btn-attention:hover p{
+    color: white;
+}
+
+@media (max-width: 599px) {
+
+    .btn-attention{
+        width: 100%;
+        max-width: 343px;
+        margin: 0 auto;
+    }
+
+    .btn-attention-container{
+        display: inline-block;
+    }
+
+    .btn-attention p{
+        font-size: 14px;
+        line-height: 44px;
+    }
+}

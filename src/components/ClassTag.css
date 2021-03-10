@@ -1,0 +1,41 @@
+.tag{
+    z-index: 2;
+    padding: 8px;
+    
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product{
+    background-color: #EB5757;
+}
+
+.produce{
+    background-color: #F2994A;
+}
+
+.data{
+    background-color: #F2C94C;
+}
+
+.robotics{
+    background-color: #27AE60;
+}
+
+.software{
+    background-color: #2D9CDB;
+}
+
+.uiux{
+    background-color: #9B51E0;
+}

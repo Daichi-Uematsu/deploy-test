@@ -1,0 +1,477 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  .Home {
+    text-align: center;
+    color: #212121;
+  }
+  
+  .top{
+    max-width: 1240px;
+    margin: 0 100px;
+  }
+
+  
+  .top-container{
+    text-align: center;
+    color: #212121;
+
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    height: 90vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 100px 0;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    
+  }
+
+
+  .top-container h1{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .top-container p{
+    font-size: 20px;
+    font-size: calc(14px + 0.5vw);
+  }
+  
+  .top-exhibition-title{
+    margin-top: 15vh;
+    margin-bottom: 20px;
+    letter-spacing: 0.05rem;
+  }
+  
+  
+  .hakaru{
+    width: 32vw;
+    min-width: 480px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    display: block;
+  }
+  
+  .exhibition-date{
+    font-style: normal; 
+    display: inline-flex; 
+    
+    margin: 0 auto;
+    margin-bottom: 12px;
+  }
+  
+  .date-border{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 48px;
+    margin: 0 12px 0 4px;
+  }
+  
+  .exhibition-date p{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(44px + 0.8vw);
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.1em;
+  }
+  
+  
+  .date{
+    display: flex;
+  }
+  
+  .day{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(16px + .2vw);
+    line-height: 16px;
+  }
+  
+  .exhibition-time{
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(12px + .4vw);
+    line-height: 16px;
+    
+    letter-spacing: 0.1em;
+  
+    margin-bottom: 12vh;
+  }
+
+  .text-red{
+    color: #EF4949;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  /* works ----------------------*/
+  .work-container{
+    margin-bottom: 120px;
+  }
+
+  .works-list{
+    display: block;
+    margin-top: -160px;
+    padding-top: 160px;
+  }
+  
+  /*loop------------*/
+  
+  .upper-loop-wrap {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  
+  .upper-loop-wrap ul{
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .upper-loop-wrap li{
+    list-style-type: none;
+  }
+  
+  .upper-loop-wrap .works-item {
+    width: auto;
+    height: 100%;
+  }
+  
+  @keyframes upper-loop {
+    0% {
+      transform: translateX(calc(100% - 5%));
+    }
+    to {
+      transform: translateX(calc(-100% - 5%));
+    }
+  }
+  
+  @keyframes upper-loop2 {
+    0% {
+      transform: translateX(-5%);
+    }
+    to {
+      transform: translateX(-205%);
+    }
+  }
+  
+  .upper-loop-wrap ul:first-child {
+    animation: upper-loop 80s -40s linear infinite;
+    
+  }
+  
+  .upper-loop-wrap ul:last-child {
+    animation: upper-loop2 80s linear infinite;
+    
+  }
+  
+  .upper-loop-wrap:hover ul {
+    animation-play-state: paused;
+  }
+  
+  
+  /*---------------------------------------*/
+  
+  
+  .loop-wrap {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  
+  .loop-wrap ul{
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .loop-wrap li{
+    list-style-type: none;
+  }
+  
+  .loop-wrap .works-item {
+    width: auto;
+    height: 100%;
+  }
+  
+  @keyframes loop {
+    0% {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes loop2 {
+    0% {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }
+  
+  .loop-wrap ul:first-child {
+    animation: loop 80s -40s linear infinite;
+  }
+  
+  .loop-wrap ul:last-child {
+    animation: loop2 80s linear infinite;
+  }
+  
+  .loop-wrap:hover ul {
+    animation-play-state: paused;
+  }
+  
+  /*loop------------*/
+  
+  
+  
+  
+  
+  .news-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  
+  /*portfolio*/
+  .portfolio-text{
+    max-width:343px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  
+  
+  
+  /* about ------------------------------------*/
+
+  .only-related-person{
+    text-align: center;
+  }
+
+  .about-contents{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  
+  .about-texts{
+    position: relative;
+   text-align: left;
+   margin: 0 auto;
+   margin-bottom: 40px;
+  }
+
+  .low-opacity{
+    opacity: 0.3;
+  }
+  
+  .about-subtext{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #777777;
+  }
+  
+  .about-texts-row{
+    display: flex;
+  }
+  
+  .about-texts-row h4{
+    min-width: 68px;
+    margin-right: 32px;
+  }
+  
+  .about-image{
+    width: 100%;
+    max-height: 328px;
+    height: auto;
+    max-width: 506px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  
+  
+  /* SNS -------------------------------------*/
+  .sns-container{
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 540px;
+    border: #EBEDF0 1px solid;
+    box-sizing: border-box;
+    margin:0 auto;
+    margin-bottom: 32px;
+  }
+  
+  .label-twitter{
+    position: relative;
+    width: 100px;
+    height: 300px;
+    background-color:#00ACED ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  
+  }
+  
+  .label-twitter:hover{
+    background-color:#039ED9 ;
+  }
+  
+  .label-facebook{
+    position: relative;
+    min-width: 100px;
+    height: 300px;
+    background-color:#305097 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  
+  .label-facebook:hover{
+    background-color:#2D477F ;
+  }
+  
+  .sns-ic{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .twitter-embed{
+    
+    text-align: left;
+    width: 440px;
+    height: 300px;
+    background-color: #fff;
+  }
+  
+  iframe{
+    border-width: 0;
+  }
+  
+  /* アイコン関連　*/
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 599px) {
+
+    .Top{
+      width: 100%;
+    }
+
+    .top-container{
+      padding: 0 16px;
+      padding-top: 76px;
+      box-sizing: border-box;
+    }
+
+    .top-container span{
+      font-size: 16px;
+    }
+  
+    .mobile-hidden{
+      display: none;
+    }
+
+    .exhibition-date p{
+      font-size: 32px;
+      line-height:32px
+    }
+
+    .date-border{
+      line-height: 32px;
+    }
+    
+  
+    /*TOP*/
+
+    .hakaru{
+        width: 280px;
+        min-width: 0;
+        height: auto;
+        margin-bottom: 32px;
+    }
+
+    
+  
+    /*WORK*/
+    .work-container{
+      margin-bottom: 60px;
+    }
+
+    /*NEWS*/
+    .news-list{
+      flex-direction: column;
+    }
+
+    /*ABOUT*/
+    .about-image{
+      max-height: 224px;
+    }
+  
+  
+  
+    /*SNS*/
+    .myClassname{
+      width:288px
+    }
+
+    .label-twitter{
+      min-width:58px;
+      max-width: 58px;
+    }
+    
+
+    .label-facebook{
+      min-width:58px;
+    }
+  
+    /*共通要素*/
+  
+    
+  }

@@ -1,0 +1,129 @@
+.work-small{
+    width: 332px;
+    text-align: left;
+    transition: all 0.3s;
+  }
+
+  .work-small a{
+    text-decoration: none;
+  }
+
+
+  .image-container{
+    position: relative;
+    border-radius: 8px;
+    height:184px;
+    width: 100%;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+
+  .work-small-image{
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      transition: all 0.3s;
+  }
+
+  .work-small-text{
+    position: relative;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    letter-spacing: 0.05em;
+    color: #777;
+
+    margin:8px 0 0 0; 
+
+    max-width: 332px;
+    height: 40px;
+     
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+    -webkit-text-overflow: ellipsis;  
+    -o-text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    
+  }
+  
+
+  .work-small-title{
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    margin: 0 0;
+    position: relative;
+    text-decoration: none;
+    color: #212121;
+    transition: all 0.3s;
+
+    width: 100%;
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+    -webkit-text-overflow: ellipsis;  
+    -o-text-overflow: ellipsis;  
+
+  }
+
+  .works-small-subtext {
+    display: inline-flex;
+
+    
+}
+
+.works-small-subtext p{
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #777777;
+}
+
+.work-small:hover .work-small-title{
+  color: #EB548A;
+}
+
+
+
+
+
+
+@media (max-width: 599px) {
+  .work-small{
+    width: 168px;
+  }
+
+
+
+  .work-small-title{
+
+    font-size: 14px;
+    line-height: 16px;
+    /* or 133% */
+    
+    letter-spacing: 0.03em;
+  }
+  .image-container{
+    height: 96px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+
+}

@@ -1,0 +1,15 @@
+.hidden-pc{
+    display: none;
+  }
+
+  @media (max-width: 599px) {
+
+    .hidden-sp{
+      display: none;
+    }
+
+    .hidden-pc{
+      display: inline;
+    }
+  
+  }

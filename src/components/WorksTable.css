@@ -1,0 +1,65 @@
+.MuiPagination-root{
+    display: inline;
+
+}
+
+
+.MuiPagination-ul{
+    justify-content: center;
+}
+
+.work-table{
+    width: 100%;
+    text-align:center;
+}
+
+
+.work-list{
+    display: inline-grid;
+    grid-template-columns: 332px 332px 332px;
+    margin-bottom: 40px;
+    gap: 24px;
+}
+
+.work-list-sp{
+    display: inline-grid;
+    grid-template-columns: 332px 332px 332px;
+    margin-bottom: 40px;
+    gap: 24px;
+    display: none;
+}
+
+.works-number{
+    max-width: 1044px;
+    margin: 16px auto;
+    text-align: left;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    
+    /* identical to box height, or 100% */
+    
+    color: #212121;
+}
+
+@media (max-width: 768px) {
+    .work-list{
+        grid-template-columns: 332px 332px;
+        display: none;
+    }
+
+    .work-list-sp{
+        grid-template-columns: 332px 332px;
+        display: inline-grid;
+    }
+}
+
+@media (max-width: 599px) {
+    .work-list-sp{
+        grid-template-columns: 168px 168px;
+        gap: 20px 8px;
+    }
+  
+  }

@@ -1,0 +1,170 @@
+body{
+  background: #F9FBFD;
+}
+
+.container{
+  max-width: 1120px;
+  padding: 0 100px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+/*ページ共通要素*/
+
+h1 {
+    position: relative;
+    padding: 0 65px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 52px;
+    letter-spacing: -0.1rem;
+    margin-top: 0;
+  }
+
+h2{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+
+h4{
+font-family: YuGothic;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: 0.05em;
+margin: 0 0;
+
+}
+
+p{
+font-family: YuGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin: 0;
+/* or 150% */
+letter-spacing: 0.05em;  
+}
+
+  
+  /* カラー */
+  .white{
+    color: white;
+  }
+  
+  
+  /* 余白/非表示 */
+  .mg-auto{
+    margin: 0 auto;
+  }
+  
+  .mg-120{
+    margin-bottom:120px;
+  }
+  
+  .mg-80{
+    margin-bottom: 80px;
+  }
+
+  .mg-40{
+    margin-bottom: 40px;
+  }
+  
+  .mg-16{
+    margin-bottom: 16px;
+  }
+  
+  .mg-4{
+    margin-bottom: 4px;
+  }
+  
+  .mgr-60{
+    margin-right: 60px;
+  }
+  
+  .mgr-16{
+    margin-right: 16px;
+  }
+  
+  .mgr-4{
+    margin-right: 4px;
+  }
+
+  .br-sp{
+    display: none;
+  }
+
+  .hidden-pc{
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .container{
+      padding: 0 52px;
+    }
+}
+
+
+
+  @media (max-width: 599px) {
+
+    .container{
+      max-width: 343px;
+      margin: 0 auto;
+      margin-bottom: 60px;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 40px;
+      /* identical to box height, or 100% */
+      letter-spacing: 0.05em;
+      padding: 0;
+    }
+  
+    p{
+      line-height: 22px;
+      margin: 0;
+      /* or 150% */
+      letter-spacing: 0.03em; 
+    }
+
+    .br-sp{
+      display: inline;
+    }
+
+    .hidden-sp{
+      display: none;
+    }
+
+    .hidden-pc{
+      display: inline;
+    }
+  
+
+
+
+  }

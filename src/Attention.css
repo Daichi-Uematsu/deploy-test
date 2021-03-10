@@ -1,0 +1,79 @@
+.attentionTitle h2{
+  margin: 0;
+  margin: 140px 0 20px 0;
+}
+
+.redText{
+  font-weight: bold;
+  color: #ef4949;
+}
+
+.attentionWriter{
+  text-align: right;
+}
+
+/* .check1 h3{
+  font-family: YuGothic;
+  font-size: 24px;
+  margin: 46px 0 12px 0;
+  border-left: solid 6px;
+  padding-left: 12px;
+}
+
+.check2 h3{
+  font-family: YuGothic;
+  font-size: 24px;
+  margin: 46px 0 12px 0;
+  border-left: solid 6px;
+  padding-left: 12px;
+}
+
+.boldText{
+  font-weight: bold;
+}
+
+.check3 h3{
+  font-family: YuGothic;
+  font-size: 24px;
+  margin: 46px 0 12px 0;
+  border-left: solid 6px;
+  padding-left: 12px;
+}
+ */
+
+.sp{
+  display: none;
+}
+
+@media screen and (max-width: 375px){
+  .sp {
+    display: inline-block; 
+  }
+  .attentionTitle h2{
+    line-height: 1.5;
+    margin-top: 90px;
+    font-size: 20px;
+  }
+
+  /* .check1 h3{
+    font-size: 18px;
+    margin: 36px 0 12px 0;
+    border-left: solid 4px;
+    padding-left: 8px;
+  }
+
+  .check2 h3{
+    font-size: 18px;
+    margin: 36px 0 12px 0;
+    border-left: solid 4px;
+    padding-left: 8px;
+  }
+
+  .check3 h3{
+    font-size: 18px;
+    margin: 36px 0 12px 0;
+    border-left: solid 4px;
+    padding-left: 8px;
+  } */
+  
+  }

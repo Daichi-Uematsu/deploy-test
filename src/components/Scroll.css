@@ -1,0 +1,68 @@
+@keyframes circle{
+    0% {
+
+      }
+      100% {
+        transform: translateY(-20px);
+      }
+  }
+
+  @keyframes fade{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+.scroll{
+    width: 62px;
+    height: 88px;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    opacity: 0;
+
+    animation-name: fade;
+    animation-duration: 0.8s;
+    animation-timing-function: ease;
+    animation-delay:1.2s;
+    animation-fill-mode:forwards;
+    
+  }
+
+.scroll svg{
+    overflow: visible;
+}
+
+.text{
+    transition: all .3s ease-out;
+}
+
+.scroll:hover .text{
+    transform: translateY(4px);
+}
+
+.arrow{
+    transition: all .3s ease-out;
+}
+
+.scroll:hover .arrow{
+    transform: translateY(4px);
+}
+
+.circle{
+    transition: all .3s ease-out;
+}
+
+.scroll:hover .circle{
+    transform: translateY(20px);
+}
+
+
+
+@media (max-width: 599px) {
+    .scroll{
+        margin-bottom: 60px;
+    }
+}

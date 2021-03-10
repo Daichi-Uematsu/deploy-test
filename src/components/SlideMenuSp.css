@@ -1,0 +1,66 @@
+.slide-menu{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+
+.slide-menu-sns-text{
+    margin-bottom: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+}
+
+.slide-menu-sns{
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 36px;
+}
+
+.slide-menu-sp-header{
+    height: 40px;
+    margin-top: 16px;
+    padding-right: 16px;
+    margin-bottom: 8px;
+}
+
+.slide-menu-ic{
+    width: 40px;
+    height:40px;
+    float: right;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.slide-menu-ic:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: rgba(60,64,67,0.05);
+    transition: all 0.2s;
+    
+}
+
+.slide-menu-ic:hover::after{
+    top: -6px;
+    left: -6px;
+    width: 52px;
+    height: 52px;
+}
+
+
+
+@media (max-width: 1025px) {
+
+}

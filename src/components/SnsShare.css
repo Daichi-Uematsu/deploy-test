@@ -1,0 +1,17 @@
+.sns{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.sns a{
+    transition: all 0.3s;
+}
+
+.Icon{
+    transition: all 0.3s;
+}
+
+.Icon:hover{
+    opacity: 0.7;
+}
