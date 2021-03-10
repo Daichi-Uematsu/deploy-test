@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deploy-test/static/css/main.afe5b17a.chunk.css",
+    "main.css": "/deploy-test/static/css/main.adc9284b.chunk.css",
     "main.js": "/deploy-test/static/js/main.e394b8ae.chunk.js",
     "main.js.map": "/deploy-test/static/js/main.e394b8ae.chunk.js.map",
     "runtime-main.js": "/deploy-test/static/js/runtime-main.2924af36.js",
@@ -10,7 +10,7 @@
     "static/js/3.238431b8.chunk.js": "/deploy-test/static/js/3.238431b8.chunk.js",
     "static/js/3.238431b8.chunk.js.map": "/deploy-test/static/js/3.238431b8.chunk.js.map",
     "index.html": "/deploy-test/index.html",
-    "static/css/main.afe5b17a.chunk.css.map": "/deploy-test/static/css/main.afe5b17a.chunk.css.map",
+    "static/css/main.adc9284b.chunk.css.map": "/deploy-test/static/css/main.adc9284b.chunk.css.map",
     "static/js/2.caa818ea.chunk.js.LICENSE.txt": "/deploy-test/static/js/2.caa818ea.chunk.js.LICENSE.txt",
     "static/media/aboutImage.a1c23c68.png": "/deploy-test/static/media/aboutImage.a1c23c68.png",
     "static/media/close.4837da68.svg": "/deploy-test/static/media/close.4837da68.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.2924af36.js",
     "static/js/2.caa818ea.chunk.js",
-    "static/css/main.afe5b17a.chunk.css",
+    "static/css/main.adc9284b.chunk.css",
     "static/js/main.e394b8ae.chunk.js"
   ]
 }
