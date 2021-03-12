@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/deploy-test/static/css/main.17986f60.chunk.css",
-    "main.js": "/deploy-test/static/js/main.e394b8ae.chunk.js",
-    "main.js.map": "/deploy-test/static/js/main.e394b8ae.chunk.js.map",
+    "main.css": "/deploy-test/static/css/main.7c0a8900.chunk.css",
+    "main.js": "/deploy-test/static/js/main.80ddccbe.chunk.js",
+    "main.js.map": "/deploy-test/static/js/main.80ddccbe.chunk.js.map",
     "runtime-main.js": "/deploy-test/static/js/runtime-main.2924af36.js",
     "runtime-main.js.map": "/deploy-test/static/js/runtime-main.2924af36.js.map",
-    "static/js/2.caa818ea.chunk.js": "/deploy-test/static/js/2.caa818ea.chunk.js",
-    "static/js/2.caa818ea.chunk.js.map": "/deploy-test/static/js/2.caa818ea.chunk.js.map",
+    "static/js/2.3e987977.chunk.js": "/deploy-test/static/js/2.3e987977.chunk.js",
+    "static/js/2.3e987977.chunk.js.map": "/deploy-test/static/js/2.3e987977.chunk.js.map",
     "static/js/3.238431b8.chunk.js": "/deploy-test/static/js/3.238431b8.chunk.js",
     "static/js/3.238431b8.chunk.js.map": "/deploy-test/static/js/3.238431b8.chunk.js.map",
     "index.html": "/deploy-test/index.html",
-    "static/css/main.17986f60.chunk.css.map": "/deploy-test/static/css/main.17986f60.chunk.css.map",
-    "static/js/2.caa818ea.chunk.js.LICENSE.txt": "/deploy-test/static/js/2.caa818ea.chunk.js.LICENSE.txt",
-    "static/media/aboutImage.a1c23c68.png": "/deploy-test/static/media/aboutImage.a1c23c68.png",
+    "static/css/main.7c0a8900.chunk.css.map": "/deploy-test/static/css/main.7c0a8900.chunk.css.map",
+    "static/js/2.3e987977.chunk.js.LICENSE.txt": "/deploy-test/static/js/2.3e987977.chunk.js.LICENSE.txt",
+    "static/media/aboutImage.69c7fba3.png": "/deploy-test/static/media/aboutImage.69c7fba3.png",
     "static/media/close.4837da68.svg": "/deploy-test/static/media/close.4837da68.svg",
     "static/media/facebook-white.18b22478.svg": "/deploy-test/static/media/facebook-white.18b22478.svg",
     "static/media/hakaru.18c9386e.svg": "/deploy-test/static/media/hakaru.18c9386e.svg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2924af36.js",
-    "static/js/2.caa818ea.chunk.js",
-    "static/css/main.17986f60.chunk.css",
-    "static/js/main.e394b8ae.chunk.js"
+    "static/js/2.3e987977.chunk.js",
+    "static/css/main.7c0a8900.chunk.css",
+    "static/js/main.80ddccbe.chunk.js"
   ]
 }
