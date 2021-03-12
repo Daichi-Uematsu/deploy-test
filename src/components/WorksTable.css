@@ -44,7 +44,7 @@
     color: #212121;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .work-list{
         grid-template-columns: 332px 332px;
         display: none;

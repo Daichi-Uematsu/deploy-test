@@ -65,14 +65,13 @@ function About() {
                             <br></br>
                             今年で9回目となる卒業・終了研究展。2017年に学部内の再編成を行って、最初の展示会になります。<br></br>
                             今までとは違う新たなデザイン工学部の一面を感じ取ってみてください。<br></br>
-                            <br></br>
-                            皆様のお越しを心よりお待ちしております。
+
                         </p>
                     </div>
             
                     <div className="writername">
                         <p><br></br>
-                        2020.3.13<br></br>芝浦工業大学デザイン工学部<br class="br-sp"></br>卒業・修了研究展委員</p>
+                        2020.3.13<br></br>芝浦工業大学デザイン工学部<br class="br-sp"></br>卒業・修士研究展2021 卒業展示委員会</p>
                     </div>
                 </div>
                 
@@ -107,40 +106,42 @@ function About() {
             <div className="overViewcontents">
 
             <div className="about-texts">
-                <div className="about-texts-row mg-16">
-                <h4>展覧会名</h4>
-                <p>芝浦工業大学デザイン工学部<br class="br-sp"></br>卒業・修了研究展2021</p>
+
+                <div className="about-texts-row mg-40">
+                  <h4>展覧会名</h4>
+                  <p>芝浦工業大学デザイン工学部<br class="br-sp"></br>卒業・修了研究展2021</p>
                 </div>
 
-                <div className="about-texts-row mg-16 ">
-                <h4>入場料</h4>
-                <p>入場無料</p>
+                <div className="about-texts-row mg-40">
+                  <h4>開催方法</h4>
+                  <div>
+                    <p>本サイトにてオンライン展示<br></br><span className="text-red">キャンパス展示での一般公開は中止となりました。</span></p>
+                  </div>
                 </div>
 
-                <div className="about-texts-row mg-16 ">
-                <h4>会期</h4>
-                    <div >
-                    <p>2021.3.13(土) - 3.21(日)<br></br>10:00 ~ 17:00 <br class="br-sp"></br>(最終入場時間 16:15)</p>
-                    <p className="about-subtext">*日曜日もご入場いただけます。<br></br>*最終開催日は16:00までの入場<br class="br-sp"></br>となります。</p>
-                    </div>
+                <div className="about-texts-row mg-40">
+                  <h4>会期</h4>
+                  <div>
+                    <p>2021.3.13(土) - 3.21(日)</p>
+                  </div>
                 </div>
 
-                <div className="about-texts-row mg-16 ">
-                    <h4>会場</h4>
-                    <div>
-                    <p>芝浦工業大学芝浦キャンパス<br></br>〒108-8548<br class="br-sp"></br>東京都港区芝浦3-9-14</p>
-                    <p className="about-subtext">*大学敷地内に駐車場・駐輪場は<br class="br-sp"></br>ございません。</p>
-                    </div>
+                <div className="about-texts-row mg-40">
+                  <h4>展示内容</h4>
+                  <div>
+                    <p>  
+                      各領域の研究室から生み出された、個性豊かな卒業研究作品が展示されます。領域ごとに異なる専門知識を持った学生たちの作品をご覧ください。
+                    </p>
+                  </div>
                 </div>
 
-            {/*  <div className="only-related-person text-red mg-16">キャンパス展示は学内関係者のみ<br class="br-sp"></br>ご来場いただけます。</div> */}
-
-          </div>
+            </div>
 
                 <img src={aboutImage} className="about-image" alt="exhibitionPoster"/>
             </div>
             </div>
-            
+
+        {/*
             <div className="access">
 
                 <h2>アクセス</h2>
@@ -172,7 +173,8 @@ function About() {
                     
                 </div>
             </div>
-            
+        */}     
+
         </div>
     </motion.div>
   );

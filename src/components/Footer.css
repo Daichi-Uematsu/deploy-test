@@ -10,7 +10,7 @@
 }
 
 .footer-text{
-    font-family: YuGothic;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -81,12 +81,10 @@
 }
 
 /*footersp*/
-.footter-sp-left{
 
-}
 
 .footter-sp-right{
-        height: 88px;
+    height: 88px;
     text-align: left;
     border-left: 1px solid #fff;
     padding-left: 8px;
@@ -108,7 +106,7 @@
 }
 
   .copyright{
-    font-family: Noto Sans CJK JP;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -119,8 +117,14 @@
     text-align: center;
   }
 
+
+
   
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1023px) {
     .footer-upper{
         min-width: 568px;
         padding: 0 36px;
@@ -139,6 +143,11 @@
 
 
 @media (max-width: 599px) {
+
+    .footer-pc{
+        display: none;
+    }
+
     .footer-container{
         padding: 32px 16px;
     }

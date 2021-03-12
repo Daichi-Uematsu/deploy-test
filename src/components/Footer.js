@@ -30,7 +30,7 @@ class Footer extends React.Component{
 
                 <div className="footer-right">
                     <h4>お問い合わせ先</h4>
-                    <p className="footer-text">芝浦工業大学 2021卒展委員</p>
+                    <p className="footer-text">デザイン工学部卒業展示委員</p>
                     <div　className="footer-text"><Icon className="ic-white mgr-4">mail_outline</Icon><span className="footer-text">shibasotsu2021@gmail.com</span></div>
                     <div className="footer-text"><Icon className="ic-white mgr-4">insert_link</Icon><Link to="/contact" className="footer-contact-link footer-link">お問い合わせフォーム</Link></div>
                 </div>
@@ -62,9 +62,9 @@ class Footer extends React.Component{
         return( 
             <div className="footer">
                 <div className="footer-container">
-                    <div className="hidden-sp">{FooterUpper}</div>
+                    <div className="footer-pc">{FooterUpper}</div>
                     <div className="hidden-pc">{FooterUpperSp}</div>
-                    <p className="copyright">Copyright ©︎ 芝浦卒展委員 All Rights Reserved.</p>
+                    <p className="copyright">Copyright ©︎ デザイン工学部卒業展示委員 All Rights Reserved.</p>
                 </div>
             </div>
         );

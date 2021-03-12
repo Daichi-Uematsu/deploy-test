@@ -42,7 +42,7 @@ html{
   }
   
   .top-exhibition-title{
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-bottom: 20px;
     letter-spacing: 0.05rem;
   }
@@ -107,11 +107,12 @@ html{
     
     letter-spacing: 0.1em;
   
-    margin-bottom: 12vh;
+    margin-bottom: 8vh;
   }
 
   .text-red{
     color: #EF4949;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     font-weight: bold;
   }
   
@@ -318,6 +319,10 @@ html{
     min-width: 68px;
     margin-right: 32px;
   }
+
+  .about-texts-row p{
+    max-width: 406px;
+  }
   
   .about-image{
     width: 100%;
@@ -453,6 +458,7 @@ html{
     .about-image{
       max-height: 224px;
     }
+
   
   
   

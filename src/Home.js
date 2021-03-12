@@ -65,33 +65,33 @@ function Home() {
     {id:'3',title:'駅構内における案内サインのわかりやすさに関する検討',lab:'ユーザーエクスペリエンスデザイン研究室', name:'加賀谷幸彦',image:'workImageList1/workImage_3_01.png'},
     {id:'16',title:'商品住宅における情報提示に関するガイドライン構築',lab:'デザインプロモーション研究室', name:'加藤菜々子',image:'workImageList2/workImage_16_02.png'},
     {id:'21',title:'単眼広角中心窩センサによる前方衝突警報の開発',lab:'人間支援知能ロボティクス研究室', name:'大塚健太',image:'workImageList1/workImage_21_01.png'},
-    {id:'27',title:'ページ間の類似度を考慮したノウハウサイトの発見',lab:'コンピューティングデザイン研究室', name:'光藤多恵',image:'workImageList2/workImage_27_02.png'},
-    {id:'29',title:'異文化間におけるモバイルアプリのUIの違いに関する研究-ライフスタイルの影響を受けて-',lab:'感性インタラクションデザイン研究室', name:'秋葉美怜',image:'workImageList1/workImage_29_01.png'},
-    {id:'31',title:'未来感を表現するコンテンツの色彩とは何か？',lab:'色彩・コミュニケーションデザイン研究室', name:'新倉旭',image:'workImageList1/workImage_31_01.png'},
+    {id:'26',title:'ページ間の類似度を考慮したノウハウサイトの発見',lab:'コンピューティングデザイン研究室', name:'光藤多恵',image:'workImageList2/workImage_26_02.png'},
+    {id:'28',title:'異文化間におけるモバイルアプリのUIの違いに関する研究-ライフスタイルの影響を受けて-',lab:'感性インタラクションデザイン研究室', name:'秋葉美怜',image:'workImageList1/workImage_28_01.png'},
+    {id:'30',title:'未来感を表現するコンテンツの色彩とは何か？',lab:'色彩・コミュニケーションデザイン研究室', name:'新倉旭',image:'workImageList1/workImage_30_01.png'},
     {id:'6',title:'子供の防災に役立つカバンの提案',lab:'エモーショナルデザイン研究室', name:'近藤真弓子',image:'workImageList1/workImage_6_01.png'},
-    {id:'33',title:'心を落ち着かせる食品要素の研究-非常食設計のために-',lab:'エモーショナルデザイン研究室', name:'嶋田祥之',image:'workImageList1/workImage_33_01.png'},
-    {id:'38',title:'折り構造をもつ可変立体',lab:'製品計画研究室', name:'大霜 創',image:'workImageList1/workImage_38_01.png'},
+    {id:'32',title:'心を落ち着かせる食品要素の研究-非常食設計のために-',lab:'エモーショナルデザイン研究室', name:'嶋田祥之',image:'workImageList1/workImage_32_01.png'},
+    {id:'37',title:'折り構造をもつ可変立体',lab:'製品計画研究室', name:'大霜 創',image:'workImageList1/workImage_37_01.png'},
   ];
 
   const lowerWorksArray = [
-    {id:'50',title:'ライフスタイルの変化にシンクロする広場のあり方',lab:'製品計画研究室', name:'青木絵美',image:'workImageList1/workImage_50_01.png'},
-    {id:'51',title:'フードトラックで用いられるテイクアウト容器',lab:'デザイン史・デザイン文化研究室', name:'筒井湧太郎',image:'workImageList1/workImage_51_01.png'},
-    {id:'53',title:'20年間の変遷から見る車体形状',lab:'製品計画研究室', name:'村田千尋',image:'workImageList2/workImage_53_02.png'},
-    {id:'55',title:'活動意志の違いによる運動データの活用に関する研究',lab:'感性インタラクションデザイン研究室', name:'安西竜晟',image:'workImageList1/workImage_55_01.png'},
-    {id:'56',title:'編みを活かした構造体',lab:'製品計画研究室', name:'佐々木陸',image:'workImageList2/workImage_56_02.png'},
-    {id:'68',title:'地域活性化を促進する超小型モビリティの提案',lab:'エモーショナルデザイン研究室', name:'片桐昂樹',image:'workImageList1/workImage_68_01.png'},
-    {id:'60',title:'射出成形により作製したPP／セルブレンECの機械的特性に関する研究',lab:'形状創製工学研究室', name:'佐藤大樹',image:'workImageList1/workImage_60_01.png'},
-    {id:'65',title:'若者世代に特化したコインランドリーDX化の検討',lab:'感性インタラクションデザイン研究室', name:'野口玲奈',image:'workImageList1/workImage_65_01.png'},
-    {id:'69',title:'Vtuberによる大学PRの提案',lab:'デザイン史・デザイン文化研究室', name:'林響紀',image:'workImageList1/workImage_69_01.png'},
-    {id:'71',title:'女子の入浴ストレスを解消し、入浴意欲を高めるプロダクトの提案',lab:'エモーショナルデザイン研究室', name:'松井彩也子',image:'workImageList1/workImage_71_01.png'},
+    {id:'49',title:'ライフスタイルの変化にシンクロする広場のあり方',lab:'製品計画研究室', name:'青木絵美',image:'workImageList1/workImage_49_01.png'},
+    {id:'50',title:'フードトラックで用いられるテイクアウト容器',lab:'デザイン史・デザイン文化研究室', name:'筒井湧太郎',image:'workImageList1/workImage_50_01.png'},
+    {id:'52',title:'20年間の変遷から見る車体形状',lab:'製品計画研究室', name:'村田千尋',image:'workImageList2/workImage_52_02.png'},
+    {id:'54',title:'活動意志の違いによる運動データの活用に関する研究',lab:'感性インタラクションデザイン研究室', name:'安西竜晟',image:'workImageList1/workImage_54_01.png'},
+    {id:'55',title:'編みを活かした構造体',lab:'製品計画研究室', name:'佐々木陸',image:'workImageList2/workImage_55_02.png'},
+    {id:'67',title:'地域活性化を促進する超小型モビリティの提案',lab:'エモーショナルデザイン研究室', name:'片桐昂樹',image:'workImageList1/workImage_67_01.png'},
+    {id:'59',title:'射出成形により作製したPP／セルブレンECの機械的特性に関する研究',lab:'形状創製工学研究室', name:'佐藤大樹',image:'workImageList1/workImage_59_01.png'},
+    {id:'64',title:'若者世代に特化したコインランドリーDX化の検討',lab:'感性インタラクションデザイン研究室', name:'野口玲奈',image:'workImageList1/workImage_64_01.png'},
+    {id:'68',title:'Vtuberによる大学PRの提案',lab:'デザイン史・デザイン文化研究室', name:'林響紀',image:'workImageList1/workImage_68_01.png'},
+    {id:'70',title:'女子の入浴ストレスを解消し、入浴意欲を高めるプロダクトの提案',lab:'エモーショナルデザイン研究室', name:'松井彩也子',image:'workImageList1/workImage_70_01.png'},
   ];
 
  
 
   const NewsArray = [
-    {date:'2020.3.13',title:'公式Youtubeチャンネルが開設されました。',text:'このチャンネルでは、一部の展示者のパネル発表を配信予定です。',image:'news-default.png',link:'https://www.instagram.com/p/CLgrRjwlo67/?utm_source=ig_web_copy_link'},
-    {date:'2020.3.13',title:'コンセプトムービーが公開されました。',text:'今回の卒業展覧会のテーマは「ハカる」です。デザインを行う上で我々は”ハカル”ということを知らず知らずの内に重ねてきました。',image:'news-default.png',link:'https://www.instagram.com/p/CLgrRjwlo67/?utm_source=ig_web_copy_link'},
-    {date:'2020.3.13',title:'ここにニュースを追加します。',text:'公開先の文章やニュースの説明をここに入力します。公開先の文章やニュースの説明をここに入力',image:'news-default.png'},
+    {date:'2020.3.13',title:'公式Youtubeチャンネルが開設されました。',text:'このチャンネルでは、一部の展示者のパネル発表を配信予定です。',image:'NewsItemBG01.png',link:'https://www.youtube.com/channel/UCGu6m6glVdWU2MTwo5qWc5Q'},
+    {date:'2020.3.13',title:'コンセプトを表す漢字について①',text:'私たちは７つの「ハカる」を今回のキーワードとしています。これらに込めた思いや意味をご覧いただけます。',image:'NewsItemBG02.png',link:'https://www.instagram.com/p/CLgoREmlZxr/?utm_source=ig_web_copy_link'},
+    {date:'2020.3.13',title:'コンセプトムービーを公開しました。',text:'今回の卒業展覧会のテーマは「ハカる」です。デザインを行う上で我々は”ハカル”ということを知らず知らずの内に重ねてきました。',image:'NewsItemBG03.png',link:'https://www.instagram.com/p/CLgmu19FLbJ/?utm_source=ig_web_copy_link'},
   ];
   
 
@@ -283,34 +283,39 @@ function Home() {
           <img src={aboutImage} className="about-image" alt="exhibitionPoster"/>
 
           <div className="about-texts">
-            <div className="about-texts-row mg-16">
-            <h4>展覧会名</h4>
-            <p>芝浦工業大学デザイン工学部<br class="br-sp"></br>卒業・修了研究展2021</p>
-            </div>
 
-            <div className="about-texts-row mg-16 ">
-            <h4>入場料</h4>
-            <p>入場無料</p>
-            </div>
-
-            <div className="about-texts-row mg-16 ">
-            <h4>会期</h4>
-                <div >
-                <p>2021.3.13(土) - 3.21(日)<br></br>10:00 ~ 17:00 <br class="br-sp"></br>(最終入場時間 16:15)</p>
-                <p className="about-subtext">*日曜日は休校日のため、ご入場<br class="br-sp"></br>できません。<br></br>*最終開催日は16:00までの入場<br class="br-sp"></br>となります。</p>
+                <div className="about-texts-row mg-40">
+                  <h4>展覧会名</h4>
+                  <p>芝浦工業大学デザイン工学部<br class="br-sp"></br>卒業・修了研究展2021</p>
                 </div>
-            </div>
 
-            <div className="about-texts-row mg-16 ">
-                <h4>会場</h4>
-                <div>
-                  <p>芝浦工業大学芝浦キャンパス<br></br>〒108-8548<br class="br-sp"></br>東京都港区芝浦3-9-14</p>
-                  <p className="about-subtext">*大学敷地内に駐車場・駐輪場は<br class="br-sp"></br>ございません。</p>
+                <div className="about-texts-row mg-40">
+                  <h4>開催方法</h4>
+                  <div>
+                    <p>本サイトにてオンライン展示<br></br><span className="text-red">キャンパス展示での一般公開は中止となりました。</span></p>
+                  </div>
                 </div>
-            </div>
+
+                <div className="about-texts-row mg-40">
+                  <h4>会期</h4>
+                  <div>
+                    <p>2021.3.13(土) - 3.21(日)</p>
+                  </div>
+                </div>
+
+                <div className="about-texts-row mg-40">
+                  <h4>展示内容</h4>
+                  <div>
+                    <p>  
+                      各領域の研究室から生み出された、個性豊かな卒業研究作品が展示されます。領域ごとに異なる専門知識を持った学生たちの作品をご覧ください。
+                    </p>
+                  </div>
+                </div>
+
+
 
           </div>
-          
+
         </div>
 
         

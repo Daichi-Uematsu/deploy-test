@@ -76,7 +76,7 @@ export default function PaginationControlled() {
     <div className={classes.root}>
       <WorksTable list={WorksArray} page={page}/>
       <div className="hidden-sp">{PaginationPc}</div>
-      <div className="hidden-pc">{PaginationSp}</div>
+      <div className="responsive-tb-sp">{PaginationSp}</div>
     </div>
   );
 }

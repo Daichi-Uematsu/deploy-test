@@ -20,7 +20,7 @@ class Header extends React.Component{
                         <div className="header-left" ><Link to="/"><img className="header-logo" src={src} alt="logo"/></Link></div>
                         <div className="header-right">
                             <div className="hidden-sp"><SlideMenu currentPath={this.props.currentPath}/></div>
-                            <div className="hidden-pc"><SlideMenuSp currentPath={this.props.currentPath}/></div>
+                            <div className="responsive-tb-sp"><SlideMenuSp currentPath={this.props.currentPath}/></div>
                         </div>
                     </div>
                     <div className="blur"></div>
@@ -33,7 +33,7 @@ class Header extends React.Component{
                     <Link to="/works" className="pageBack"><BackIcon style={{ fontSize: 28 }} /><h4>一覧に戻る</h4></Link>
                     <div className="header-right-dark">
                         <div className="hidden-sp"><SlideMenu currentPath={this.props.currentPath}/></div>
-                        <div className="hidden-pc"><SlideMenuSp currentPath={this.props.currentPath}/></div>
+                        <div className="responsive-tb-sp"><SlideMenuSp currentPath={this.props.currentPath}/></div>
                     </div>
                 </div>
                 <div className="blur"></div>
@@ -45,18 +45,7 @@ class Header extends React.Component{
             
             <div>
             {header}
-            {/*
-                <div className="header-container">
-                    {header}
-                    <div className="header-left" ><Link to="/"><img className="header-logo" src={src} alt="logo"/></Link></div>
-                    <div className="header-right">
-                    <div className="hidden-sp"><SlideMenu currentPath={this.props.currentPath}/></div>
-                    <div className="hidden-pc"><SlideMenuSp currentPath={this.props.currentPath}/></div>
 
-                    </div>
-                </div>
-                <div className="blur"></div>
-            */}
             </div>
             
         );

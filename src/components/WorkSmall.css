@@ -2,6 +2,8 @@
     width: 332px;
     text-align: left;
     transition: all 0.3s;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+
   }
 
   .work-small a{
@@ -30,7 +32,6 @@
 
   .work-small-text{
     position: relative;
-    font-family: YuGothic;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -57,7 +58,6 @@
   
 
   .work-small-title{
-    font-family: YuGothic;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -78,15 +78,20 @@
     -o-text-overflow: ellipsis;  
 
   }
+  
+.dark-title{
+  color: white;
+}
 
-  .works-small-subtext {
-    display: inline-flex;
+.works-small-subtext {
+  display: inline-flex;
+}
 
-    
+.dark-subtext{
+  color: #AAA;
 }
 
 .works-small-subtext p{
-  font-family: YuGothic;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;

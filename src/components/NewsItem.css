@@ -31,8 +31,8 @@
 }
 
 .news-item-date{
-    font-family: YuGothic;
-    font-style: normal;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -44,7 +44,7 @@
 
   .news-item-text{
     position: relative;
-    font-family: YuGothic;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -71,7 +71,7 @@
   
 
   .news-item-title{
-    font-family: YuGothic;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -101,10 +101,7 @@
     transform:scale(1.1,1.1);
   }
 
-@media (max-width: 768px) {
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .news-item{
   width: 100%;
   min-width: 0;
@@ -121,6 +118,10 @@
     margin-right: 12px;
     margin-bottom: 0;
     border-radius: 4px;
+  }
+
+  .news-image-container{
+    border-radius: 0px;
   }
 
   .news-item-info{

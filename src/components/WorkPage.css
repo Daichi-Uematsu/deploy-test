@@ -30,7 +30,6 @@
 .work-contents{
   width: 1024px;
   margin: 0 auto;
-  height: 365px;
 }
 
 .work-contents hr{
@@ -69,6 +68,7 @@
   margin-bottom: 8px;
 }
 
+
 .name-lab{
   font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   font-style: normal;
@@ -91,16 +91,24 @@
   margin-right: 20px;
 }
 
+.recommend-works{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
 
 
-@media (max-width: 768px) {
 
+@media (max-width: 1024px) {
+  .responsive-works-sp{
+    width: 100%;
+  }
     
   }
 
-@media (max-width: 599px) {
+@media (max-width: 1024px) {
   .work-contents-container{
-    padding: 20px 12px;
+    padding: 20px 36px;
   }
 
   .work-contents{
@@ -141,8 +149,11 @@
     margin-bottom: 4px;
   }
 
-  
+}
 
-
-
+@media (max-width: 599px) {
+  .work-contents-container{
+    padding: 20px 12px;
   }
+
+}

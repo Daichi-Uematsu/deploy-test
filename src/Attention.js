@@ -52,7 +52,7 @@ const containerVariants ={
               <p>いつもご覧いただきましてありがとうござい<br class="sp"></br>ます。<br></br>この度、昨今の新型コロナウイルス感染拡大の影響および緊急事態宣言の延長を受け、3月13日〜21日に開催予定であった「芝浦工業<br class="sp"></br>大学デザイン工学部卒業・修士研究展2021」について、<span class="redText">一般公開を中止させて</span>頂く運びとなりましたのでご連絡致します。
              <br></br><br></br>来場を楽しみにしておられました方につきましては、大変恐縮ですが、ご理解頂けると幸いです。<br></br><br></br>なお、オンラインでの展示は引き続き開催<br class="sp"></br>予定です。オンライン展示詳細につきましては、開催日（3月13日）にSNSや本ホーム<br class="sp"></br>ページ等で告知予定ですので、ご確認の程<br class="sp"></br>よろしくお願いいたします。<br></br><br></br></p>
               
-              <p className="attentionWriter">芝浦工業大学デザイン工学部<br class="sp"></br>卒業・修士研究展2021 卒業展示委員会一同</p>
+              <p className="attentionWriter">芝浦工業大学デザイン工学部<br class="sp"></br>卒業・修士研究展2021 卒業展示委員会</p>
             </div>
             
           {/* <div className="check1">

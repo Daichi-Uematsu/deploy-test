@@ -46,7 +46,7 @@ h2{
 
 
 h4{
-font-family: YuGothic;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -58,7 +58,7 @@ margin: 0 0;
 }
 
 p{
-font-family: YuGothic;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -92,6 +92,10 @@ letter-spacing: 0.05em;
     margin-bottom: 40px;
   }
   
+  .mg-24{
+    margin-bottom: 24px;
+  }
+
   .mg-16{
     margin-bottom: 16px;
   }

@@ -1,15 +1,23 @@
-.hidden-pc{
+.responsive-tb-sp{
+  display: none;
+}
+
+@media (max-width: 1023px) {
+
+  .responsive-tb-sp{
+    display: inline;
+  }
+
+  .hidden-sp{
     display: none;
   }
 
+}
+
   @media (max-width: 599px) {
 
-    .hidden-sp{
-      display: none;
-    }
 
-    .hidden-pc{
-      display: inline;
-    }
+
+    
   
   }

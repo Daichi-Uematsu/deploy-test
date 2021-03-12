@@ -6,6 +6,7 @@ import WorkPage from './components/WorkPage';
 import { motion } from 'framer-motion';
 
 
+
 const json = require('./test.json');
 
 
@@ -49,10 +50,7 @@ function Work(props) {
     >
     
     <WorkPage array={WorksArray}/>
-
-    {/* おすすめの作品を表示 */}
     
-
     </motion.div>
   );
 }
